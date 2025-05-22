@@ -6,11 +6,10 @@ const bookRoutes = require('./routes/Book.route'); // ✅ Import your book route
 
 // Load .env variables
 dotenv.config();
-const a = 5
-console.log(a)
+
 // Create express app
 const app = express();
-const PORT = process.env.PORT || 8452;
+const PORT = 8452;
 
 // Middleware
 app.use(cors());
