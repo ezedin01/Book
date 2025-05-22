@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const mongoose = require('./config/db'); // Adjust path if needed
-const bookRoutes = require('../Backend/routes/Book.route'); // Match your project structure
+const mongoose = require('../config/db'); // Adjusted path to config/db
+const bookRoutes = require('../../Backend/routes/Book.route'); // Adjusted path to Book.route
 
 // Load .env variables
 dotenv.config();
