@@ -9,7 +9,7 @@ dotenv.config();
 
 // Create express app
 const app = express();
-const PORT = 8452;
+const PORT = process.env.PORT || 8452
 
 // Middleware
 app.use(cors());
