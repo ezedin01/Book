@@ -5,8 +5,8 @@ const mongoURL = 'mongodb+srv://ezepayooner:32354505@cluster0.dwv8uae.mongodb.ne
 
 // Connection options
 const options = {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true,
     serverSelectionTimeoutMS: 15000, // Increased to 15 seconds
     socketTimeoutMS: 60000,         // Increased to 60 seconds
     maxPoolSize: 10,
